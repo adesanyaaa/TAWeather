@@ -3,4 +3,4 @@ TAWeather
 
 This is a weather app based on android. I get the weather-information from OpenWeather. The app supports most of cities in China. This app will be a nice demo for new android developers.
 
-![image]https://github.com/mifanfayan/TAWeather.git/TAWeather/1.png
+![]https://github.com/mifanfayan/TAWeather/blob/master/1.png
