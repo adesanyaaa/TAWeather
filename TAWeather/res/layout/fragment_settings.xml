@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0654AF"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <!-- curetnCityName -->>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/android:curretnCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize = "30sp"
+            android:textColor = "#0654AF"
+            android:background="#fffafa" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <!-- province -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical" >
+
+            <ListView
+                android:id="@id/android:list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#0654AF"
+                android:drawSelectorOnTop="false" />
+        </LinearLayout>
+        
+		<!-- cities -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical" >
+
+            <ListView
+                android:id="@+id/android:listChild"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#0654AF"
+                android:drawSelectorOnTop="false" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
